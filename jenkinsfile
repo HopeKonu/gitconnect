@@ -7,7 +7,7 @@ pipeline {
                 echo 'please create'
             }
         }
-        stage(another stage) {
+        stage('another stage') {
             steps {
                 echo 'need change'
             }
