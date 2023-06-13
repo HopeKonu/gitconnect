@@ -1,10 +1,15 @@
-pipeline{
-    agent any{
-        stages{
-            stage("new stage"){
-                steps{
-                    echo "creating new file"
-                }
+pipeline {
+    agent any
+
+    stages {
+        stage('new stage') {
+            steps {
+                echo 'please create'
+            }
+        }
+        stage(another stage) {
+            steps {
+                echo 'need change'
             }
         }
     }
